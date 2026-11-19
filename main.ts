@@ -1,10 +1,10 @@
-// Palm Fever Cover Studio — an offline, GTA-style multi-panel cover studio.
-//
-// Give it one photo and a caption and it composes Vice City-flavoured cover
-// art in the browser: a canvas mosaic built from 8 photo panels, each panel
-// re-graded with an ink-comic look, under bold gradient lettering with a
-// heavy outline, in three export sizes. No libraries, no network calls —
-// just static files served from app/ that a desktop browser loads offline.
+// Palm Fever Cover Studio — an offline, GTA-style cover studio that turns one
+// photo and a caption into Vice City-grade cover art in the browser: an
+// 8-panel ink-comic mosaic, each panel re-graded with the Vice City grade,
+// under bold gradient lettering with a heavy outline, exported at
+// 1080×1080, 1080×1350, and 1920×1080. No libraries, no network calls —
+// just static files served from
+// app/ that a desktop browser loads offline.
 //
 // This file is the packaging entry point, not the artwork itself: it copies
 // app/ and screenshots/ from beside this file to /output and writes
